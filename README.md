@@ -2,7 +2,7 @@
 The rapid expansion of social media platforms has led to the growing problem of underage users accessing age-restricted content. While governments and organizations attempt to enforce legal age limits, many users bypass these restrictions using VPNs and false declarations.
 # [Project Name]
 
-**[Project Name]** is an AI-powered solution that verifies users' age and detects VPN usage to enforce online age restrictions. This project ensures safer online access by preventing underage users from accessing age-restricted platforms.
+**AgeShield** is an AI-powered solution that verifies users' age and detects VPN usage to enforce online age restrictions. This project ensures safer online access by preventing underage users from accessing age-restricted platforms.
 
 ## Features
 
@@ -12,8 +12,6 @@ The rapid expansion of social media platforms has led to the growing problem of 
 - **User-Friendly Frontend**: Allows users to upload images and receive real-time feedback.
 
 ## Project Architecture
-
-![Architecture Diagram](#)
 
 1. **Frontend**: User interface for submitting photos and receiving results.
 2. **Backend**: Processes requests and integrates with machine learning models.
@@ -35,15 +33,15 @@ The rapid expansion of social media platforms has led to the growing problem of 
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
-2.python -m venv venv
+2.**Set up a virtual environment:**:
+  ```bash
+python -m venv venv
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 
-3.Install dependencies:
-  pip install -r requirements.txt
 
-4.Run the application:
- python app.py
+
+
 
 
 
