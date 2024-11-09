@@ -1,0 +1,7 @@
+/project_root
+├── /data                # Datasets for training/testing
+├── /models              # Saved machine learning models
+├── /frontend            # Frontend code (HTML, CSS, JS)
+├── /backend             # Backend code (Flask/Django APIs)
+├── requirements.txt     # List of Python dependencies
+├── README.md            # Project documentation
