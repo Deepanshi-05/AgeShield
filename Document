@@ -1,0 +1,31 @@
+User Flow and Key Features
+1. User Login
+Step 1: User enters their DOB when logging in to a social media account.
+Step 2: System checks if the DOB meets the age criteria.
+     ->If age is valid, proceed to the next step.
+     ->If underage, restrict access.
+2. Age Verification
+Step 3: User is prompted to verify their age using one or more of the following:
+     ->Facial Age Verification: User uploads a photo; AI model estimates age.
+     ->Document Upload: User uploads an ID (e.g., Aadhaar card in India) to verify age.
+     ->Real-time Selfie Verification: Compare the live photo with the uploaded document.
+3. VPN Detection
+Step 4: System checks if the user is using a VPN:
+     ->If VPN detected, prompt the user to disable it.
+     ->If no VPN, proceed.
+4. Validation and Feedback
+Step 5: Validate all inputs:
+     ->If all checks (DOB, facial age, and VPN) pass, grant access to the social media platform.
+     ->If any verification fails, deny access and provide appropriate feedback.
+5. Data Privacy and Security
+     ->Ensure sensitive data (photos, documents) is securely stored or processed temporarily without saving long-term.
+     ->Use encryption for data transmission and storage.
+     ->System Integration Points
+
+
+Frontend: User-friendly interface for DOB input, photo upload, and feedback.
+Backend: Handles:
+Age estimation via AI models.
+Document verification.
+VPN detection using IP analysis.
+Database (if needed): Logs user actions and stores temporary data securely.
